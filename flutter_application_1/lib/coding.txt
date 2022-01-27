@@ -1,0 +1,33 @@
+Container(
+          color: Colors.amber,
+          height: 100,
+          width: 400,
+          margin: EdgeInsets.all(50),
+          child: Text(
+            'Ini halaman aplikasi saya',
+            style: TextStyle(
+                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.blue),
+          ),
+
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Indah Rianti APK',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('APK FLUTTER'),
+        ),
+        body: const Center(
+          child: Text(
+            'Indah Rianti',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
+    );
+  }
+}
