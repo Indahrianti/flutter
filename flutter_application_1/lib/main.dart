@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 // Copyright 2018 The Flutter team. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
@@ -9,13 +11,15 @@ import 'text.dart';
 import 'container.dart';
 import 'image.dart';
 import 'sample.dart';
-import 'row.dart';
 import 'kotak.dart';
 import 'sample2.dart';
 import 'latihan1.dart';
+import 'latihan2.dart';
+import 'latihan3.dart';
+import 'latihan4.dart';
 
 void main() {
-  runApp(const LatihanWidget());
+  runApp(const LatListView());
 }
 
 class MyApp extends StatelessWidget {

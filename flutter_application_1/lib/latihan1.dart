@@ -33,6 +33,12 @@ class LatihanWidget extends StatelessWidget {
                 color: Colors.redAccent,
                 height: 100,
                 width: 100,
+              ),
+              Container(
+                margin: EdgeInsets.all(10),
+                color: Colors.redAccent,
+                height: 100,
+                width: 100,
               )
             ],
           ),
@@ -51,6 +57,14 @@ class LatihanWidget extends StatelessWidget {
                   height: 100,
                   width: 100,
                 ),
+                Container(
+                  margin: EdgeInsets.all(10),
+                  color: Colors.orangeAccent,
+                  height: 100,
+                  width: 100,
+                )
+              ]),
+              Column(children: [
                 Container(
                   margin: EdgeInsets.all(10),
                   color: Colors.orangeAccent,
