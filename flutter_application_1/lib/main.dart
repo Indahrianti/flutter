@@ -17,9 +17,10 @@ import 'latihan1.dart';
 import 'latihan2.dart';
 import 'latihan3.dart';
 import 'latihan4.dart';
+import 'lat3.dart';
 
 void main() {
-  runApp(const LatListView());
+  runApp(const LatList());
 }
 
 class MyApp extends StatelessWidget {
